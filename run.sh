@@ -23,7 +23,7 @@ function Check_System_Depandencies {
 }
 
 function Download_Profile {
-    wget -qO /etc/dnsmasq.d/warp.conf https://raw.githubusercontent.com/acacia233/Project-WARP-Unlock/main/dnsmasq/warp.conf
+    wget -qO /etc/dnsmasq.d/warp.conf https://raw.githubusercontent.com/SXR666/Project-WARP-Unlock/mo/dnsmasq/warp.conf
     wget -qO /etc/wireguard/up https://raw.githubusercontent.com/acacia233/Project-WARP-Unlock/main/scripts/up
     wget -qO /etc/wireguard/down https://raw.githubusercontent.com/acacia233/Project-WARP-Unlock/main/scripts/down
     chmod +x /etc/wireguard/up
